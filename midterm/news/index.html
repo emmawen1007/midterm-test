@@ -1,15 +1,15 @@
 <!doctype html>
-<html ng-app="customersApp" class="no-js" lang="en" dir="ltr">
+<html ng-app class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ET-710 Midterm</title>
+    <title>News</title>
 
     <!-- *Begin AnuglarJS -->
-        <script src="js/vendor/angular-1.7.7/angular.min.js"></script>
-        <script src="js/vendor/angular-1.7.7/angular-animate.min.js"></script>
-        <script src="js/vendor/angular-1.7.7/angular-route.min.js"></script>
+        <script src="../js/vendor/angular-1.7.7/angular.min.js"></script>
+        <script src="../js/vendor/angular-1.7.7/angular-animate.min.js"></script>
+        <script src="../js/vendor/angular-1.7.7/angular-route.min.js"></script>
     <!-- *End AnuglarJS -->
 
     <!-- *Begin Datatables.net -->
@@ -27,34 +27,17 @@
         <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
     <!-- *End Font Awesome -->
 
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/app.css">
 
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="css/subnav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="../css/footer.css">
 
   </head>
   <body>
-
-    <!-- *Begin Social -->
-    <div class="rounded-social-buttons">
-     <a class="social-button facebook" href="https://www.facebook.com/"></a>
-     <a class="social-button twitter" href="https://twitter.com/"></a>
-     <a class="social-button linkedin" href="https://www.linkedin.com/"></a>
-     <a class="social-button youtube" href="https://www.youtube.com/"></a>
-     <a class="social-button instagram" href="https://www.instagram.com/"></a>
-     <a class="social-button pinterest" href="https://www.pinterest.com/"></a>
-     <a class="social-button google-plus" href="https://plus.google.com/discover"></a>
-     <a class="social-button github" href="https://github.com/"></a>
-     <a class="social-button tumblr" href="https://www.tumblr.com/"></a>
-</div>
-
-
-    <!-- *End Social -->
 
     <!-- *Begin Nav -->
     <div data-sticky-container>
@@ -64,18 +47,17 @@
     <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle></button>
     </span>
-    <a class="topbar-responsive-logo" href="#"><strong>ET-710 Midterm</strong></a>
+    <a class="topbar-responsive-logo" href="#"><strong>News</strong></a>
   </div>
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
-        <li><a href="about/index.html">About</a></li>
-        <li><a href="services/index.html">Services</a></li>
-        <li><a href="index.html#!/works">Works</a></li>
-        <li><a href="index.html#!/news">News</a></li>
-        <li><a href="index.html#!/contact">Contact</a></li>
-
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="../Services/index.html">Services</a></li>
+        <li><a href="../works/index.html</a>Works</li>
+        <li><a href="#">News</a></li>
+        <li><a href="../contact/index.html">Contact</a></li>
         <li>
           <button type="button" class="button hollow topbar-responsive-button">Categories</button>
         </li>
@@ -98,7 +80,7 @@
 
 
     <!-- *Begin Content -->
-    <div ng-view></div>
+    <h1>Services Page</h1>
     <!-- *Begin AnuglarJS -->
     <div>
       <label>Name:</label>
@@ -115,7 +97,7 @@
             <footer class="marketing-site-footer">
             <div class="grid-x grid-padding-x">
                 <div class="medium-4 cell">
-                  <h4 class="marketing-site-footer-name">ET-710</h4>
+                  <h4 class="marketing-site-footer-name">news</h4>
                   <p>Building and maintaining websites.</p>
                   <ul class="menu marketing-site-footer-menu-social simple">
                     <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
@@ -171,12 +153,12 @@
                   </div>
                   <div class="column">
                     <ul class="menu marketing-site-footer-bottom-links">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="about/index.html">About</a></li>
-                      <li><a href="services/index.html">Services</a></li>
-                      <li><a href="index.html#!/works">Works</a></li>
-                      <li><a href="index.html#!/news">News</a></li>
-                      <li><a href="index.html#!/contact">Contact</a></li>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="../about/index.html">About</a></li>
+                      <li><a href="../Services/index.html">Services</a></li>
+                      <li><a href="../works/index.html</a>Works</li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="../contact/index.html">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -185,12 +167,9 @@
           <!-- *End Footer -->
 
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-
-    <script src="js/spa.js"></script>
-
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/vendor/what-input.js"></script>
+    <script src="../js/vendor/foundation.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>
